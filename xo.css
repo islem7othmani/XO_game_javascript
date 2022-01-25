@@ -1,0 +1,31 @@
+table{
+    margin-left: 35%;
+}
+.title{
+    font-size:1.8em;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px ;
+}
+span{
+    color: red;
+    font-weight: bolder;
+}
+.case {
+    width: 100px;
+    height: 100px;
+    background:black;
+    margin: 15px;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+.case:hover{
+    background:red;
+    cursor: pointer;
+}
